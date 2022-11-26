@@ -47,6 +47,7 @@ class ProductController extends Controller
 
     public function delete(Product $product)
     {
+        // test
         $product->deleteProduct();
         return redirect()->back();
     }
